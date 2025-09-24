@@ -1,9 +1,4 @@
-import Header from "./_components/header";
-import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-<<<<<<< HEAD
-import { SearchIcon } from "lucide-react";
-=======
 import {
   Card,
   CardAction,
@@ -18,25 +13,10 @@ import { MenuIcon, SearchIcon } from "lucide-react";
 import Header from "./_components/header";
 import { Input } from "@/components/ui/input";
 import Image from "next/image";
->>>>>>> 0a2b4189be28de59b22ddf77742f47e5823db27b
 
 export default function Home() {
   return (
     <div>
-<<<<<<< HEAD
-    <div>
-      <Header />
-      <p className="text-xl font-bold">Olá, Dudex</p>
-      <p className="Text-sm">Sabádo, 24 de Janeiro de 2025</p>
-    </div>
-
-    <div className="mt-4 flex flex-row items-center gap-2">
-        <Input placeholder="Faça sua busca..." />
-        <Button size={"icon"}>
-          <SearchIcon />
-        </Button>
-    </div>
-=======
       {/*Cabeçalho*/}
       <Header />
       {/*Texto inicial*/}
@@ -64,7 +44,6 @@ export default function Home() {
       {/*Agendamentos*/}
       {/*Recomendados*/}
       {/*Populares*/}
->>>>>>> 0a2b4189be28de59b22ddf77742f47e5823db27b
     </div>
   );
 }
